@@ -7,7 +7,7 @@ import config
 
 app = Flask(__name__)
 
-openai.api_key = config.OPENAI_API_KEY
+openai.api_key = "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" #config.OPENAI_API_KEY
 
 @app.route('/static/<path:filename>')
 def serve_static(filename):
